@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python train.py --dataroot ./datasets/half/box --name myname_1 --no_flip --no_lsgan --padding_type replicate --model half_style_multi_resnet --which_model_netG resnet_2blocks --which_model_netD n_layers --n_layers_D 4 --which_direction AtoB --lambda_A 10 --dataset_mode op3 --norm batch --pool_size 0 --resize_or_crop no --niter_decay 50000 --niter 50000 --save_epoch_freq 2000 --gpu_ids 0 --ndf 64 --fineSize 64
