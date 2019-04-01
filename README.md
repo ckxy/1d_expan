@@ -66,6 +66,21 @@ Folder `util` contains some scripts to generate perlin noise (perlin2d.py), gene
 
 Folder `scripts` contain scripts used for training and testing. To train or test a model, use commands like `sh scripts/train_half_style.sh`. Go into these files to see how to specify some hyper parameters. To visualize the internal layers inside network, especially the residual blocks, you can use script `visualize_layers.sh`, as shown in our paper.
 
+### Cite
+
+If you use this code for your research, please cite the [paper](http://vcc.szu.edu.cn/research/2018/TexSyn):
+
+```
+@article{TexSyn18,
+title = {Non-stationary Texture Synthesis by Adversarial Expansion},
+author = {Yang Zhou and Zhen Zhu and Xiang Bai and Dani Lischinski and Daniel Cohen-Or and Hui Huang},
+journal = {ACM Transactions on Graphics (Proc. SIGGRAPH)},
+volume = {37},
+number = {4},
+pages = {},  
+year = {2018},
+}
+```
 
 ### Acknowledgements
 
