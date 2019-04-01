@@ -1,7 +1,8 @@
 # A experiment code for one dimensional expansion
  
+<img src='imgs/architecture.png' width="988px"/>
 
-This code was mainly adapted by [kaixi Xie](https://github.com/ckxy) on the basis of the work [Non-stationary texture synthesis using adversarial expansions](https://github.com/jessemelpolio/non-stationary_texture_syn).
+This code was mainly adapted by [kaixi Xie](https://github.com/ckxy) on the basis of the repository [non-stationary_texture_syn](https://github.com/jessemelpolio/non-stationary_texture_syn).
 
 ### Requirements
 
@@ -68,7 +69,7 @@ Folder `scripts` contain scripts used for training and testing. To train or test
 
 ### Acknowledgements
 
-The code is based on project [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We sincerely thank for their great work.
+The code is based on project [non-stationary_texture_syn](https://github.com/jessemelpolio/non-stationary_texture_syn) which is based on project [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We sincerely thank for their great work.
 
 
 
